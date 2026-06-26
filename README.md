@@ -27,7 +27,7 @@ The linked Terraform Cloud workspace should be configured with:
 
 This repository proposes one Azure resource group with default values:
 
-- Name: `rg-academic-demo-eastus-20260626`
+- Name: `rg-academic-demo-eastus-20260626-02`
 - Location: `eastus`
 
 ## Local Validation

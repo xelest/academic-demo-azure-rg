@@ -1,7 +1,7 @@
 variable "resource_group_name" {
   description = "Name of the demo resource group."
   type        = string
-  default     = "rg-academic-demo-eastus-20260626"
+  default     = "rg-academic-demo-eastus-20260626-02"
 }
 
 variable "location" {
