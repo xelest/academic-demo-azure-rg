@@ -16,6 +16,7 @@ The linked Terraform Cloud workspace should be configured with:
 - VCS repo: `xelest/academic-demo-azure-rg`
 - Working directory: repository root
 - Speculative plans enabled for pull requests
+- Pull request updates should trigger speculative plans against the feature branch
 - Azure authentication supplied via sensitive environment variables:
   - `ARM_CLIENT_ID`
   - `ARM_CLIENT_SECRET`
