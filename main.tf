@@ -3,3 +3,11 @@ resource "azurerm_resource_group" "demo" {
   location = var.location
   tags     = var.tags
 }
+
+resource "azurerm_resource_group" "demo2" {
+  name     = "rg-demo2"
+  location = "westus"
+  tags     = var.tags
+}
+
+
